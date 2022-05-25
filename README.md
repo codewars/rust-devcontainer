@@ -35,7 +35,7 @@ To install more extensions in the devcontainer, configure default extensions in 
 
 ```jsonc
     "remote.containers.defaultExtensions": [
-        "eamodio.gitlens",
+        "usernamehw.errorlens",
     ],
 ```
 
