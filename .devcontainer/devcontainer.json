@@ -1,0 +1,10 @@
+{
+  "image": "qualified/rust:1.60",
+  "workspaceFolder": "/workspace/rust",
+  "workspaceMount": "source=${localWorkspaceFolder}/src,target=${containerWorkspaceFolder}/src,type=bind",
+  "postCreateCommand": "rustup component add clippy rustfmt",
+  "extensions": [
+    "rust-lang.rust-analyzer",
+    "bungcip.better-toml"
+  ]
+}
