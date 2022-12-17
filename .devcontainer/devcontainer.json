@@ -1,5 +1,5 @@
 {
-  "image": "qualified/rust:1.64",
+  "image": "qualified/rust:1.66",
   "workspaceFolder": "/workspace",
   "workspaceMount": "source=${localWorkspaceFolder}/src,target=${containerWorkspaceFolder}/src,type=bind",
   "postCreateCommand": "rustup component add clippy rustfmt",
